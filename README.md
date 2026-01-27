@@ -1,70 +1,57 @@
-# Wallace Telecom Data Analytics
+# Customer Profile Analysis – Wallace Communications
 
-## 📊 Project Overview
-This project showcases core **data analytics** skills using a real-world telecom dataset from **Wallace Communications**. It includes:
+## 📌 Project Overview
+This project explores and analyzes a customer dataset from Wallace Communications to understand the demographic and geographic composition of customers. The goal is to describe **who the customers are, where they are located, and key characteristics within the dataset**, using clear and interpretable data analytics techniques.
 
-- Data Cleaning
-- Descriptive Statistics
-- Visualizations
-- Business Insights
-
-The goal is to extract meaningful information from customer data to support better decision-making and improve operational strategies.
+This project is designed as a **portfolio piece** to demonstrate data cleaning, exploratory data analysis (EDA), and insight communication.
 
 ---
 
-## 🧰 Tools & Technologies Used
+## 📂 Dataset
+- Source: Wallace Communications customer dataset
+- Format: CSV
+- Content includes:
+  - Customer location (country, town)
+  - Demographics (age, marital status, education)
+  - Employment information (job type)
+  - Communication and housing attributes
 
-- Python 🐍
-  - pandas
-  - matplotlib
-  - seaborn
+---
+
+## 🛠 Tools & Technologies
+- Python
+- pandas
+- NumPy
+- Matplotlib
+- Seaborn
 - Jupyter Notebook
-- Git & GitHub
 
 ---
 
-## 🧼 Step 1: Data Cleaning
-- Checked for missing values ✅
-- Renamed columns for consistency
-- Handled unusual values (e.g., negative balances)
-- Converted data types where needed
+## 🔄 Project Workflow
+1. **Data Cleaning**
+   - Removed duplicates
+   - Standardized column names
+   - Handled missing and inconsistent values
+   - Exported a cleaned dataset for analysis
+
+2. **Exploratory Data Analysis (EDA)**
+   - Geographic distribution of customers
+   - Urban concentration analysis (town-level)
+   - Age distribution and age gaps
+   - Job and education profile analysis
+   - Communication and housing characteristics
 
 ---
 
-## 📈 Step 2: Descriptive Statistics
-Key summaries include:
-- Average customer balance
-- Age distribution
-- Call durations
-- Campaign response rates
+## 📊 Key Insights
+- The dataset is heavily dominated by UK-based customers
+- Customer presence is concentrated in major towns and cities
+- Most customers fall within working-age groups
+- Employment and education backgrounds are diverse
+- The dataset represents a broad customer demographic base suitable for segmentation and profiling
 
 ---
 
-## 📊 Step 3: Visualizations
-- Histograms of customer age
-- Bar charts for job roles & education levels
-- Box plots of balance distribution
-- Line plots of call durations
+## 📁 Repository Structure
 
-> 📌 **All visuals created with matplotlib and seaborn.**
-
----
-
-## 📌 Step 4: Business Insights
-
-Some of the findings include:
-- Most customers are aged between 30–50
-- Certain job roles are more likely to respond to campaigns
-- Negative balances indicate special handling or data issues
-- Education level appears to influence product uptake
-
----
-
-## 💡 How to Use
-
-Clone the repo and run the Jupyter Notebook:
-
-```bash
-git clone https://github.com/yourusername/wallace-telecom-data-analytics.git
-cd wallace-telecom-data-analytics
-jupyter notebook
